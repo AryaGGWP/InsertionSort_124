@@ -6,7 +6,7 @@ double rerata(double a,double b){
 }
 
 string status(double c){
-    if (c >+ 60)
+    if (c >= 60)
         return "Lulus";
     else
         return "gagal";
