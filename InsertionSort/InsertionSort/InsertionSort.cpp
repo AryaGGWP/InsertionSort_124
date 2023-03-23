@@ -81,17 +81,11 @@ void display()
 }
 
 
-
-
-
-
-
-
-
-
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();   // Memanggil input
+    insertionsort();  // Memanggil insertionsort
+    display();     // memanggil display
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
